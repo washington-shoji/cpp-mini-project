@@ -6,6 +6,8 @@ using namespace std;
 
 // Calculate CGPA intit
 // int InitialiseCgpaCalculator();
+
+// RockPaperScissors intit
 int InitialiseRockPaperScissors();
 
 int main()
