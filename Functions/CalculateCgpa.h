@@ -2,4 +2,4 @@
 
 double CgpaCalculator(double marks[], int number);
 
-void InitialiseCgpaCalculator();
+int InitialiseCgpaCalculator();

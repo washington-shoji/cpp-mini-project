@@ -25,7 +25,7 @@ double CgpaCalculator(double marks[], int number)
     return cgpa;
 }
 
-void InitialiseCgpaCalculator()
+int InitialiseCgpaCalculator()
 {
     int number = 5;
     double marks[] = {90, 80, 70, 80, 90};
@@ -36,4 +36,6 @@ void InitialiseCgpaCalculator()
     printf("%.1f\n", cgpa);
     cout << "CGPA Percentage = ";
     printf("%.2f%%\n", cgpa * 9.5);
+
+    return 0;
 }
