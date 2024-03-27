@@ -1,4 +1,6 @@
+#include "CalculateCgpa.h"
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 double CgpaCalculator(double marks[], int number)
@@ -23,7 +25,7 @@ double CgpaCalculator(double marks[], int number)
     return cgpa;
 }
 
-int main()
+void InitialiseCgpaCalculator()
 {
     int number = 5;
     double marks[] = {90, 80, 70, 80, 90};
